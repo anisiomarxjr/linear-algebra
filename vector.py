@@ -1,3 +1,6 @@
+def dot_product(a,b):
+    sum([a[i] + b[i] for i in range(len(a))]) if len(a) == len(b) else 0
+
 class Vector:
 
     def __init__(self, v):
